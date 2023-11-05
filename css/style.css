@@ -1,0 +1,92 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+.tophead{
+    background: #2B2B2B;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.text-red,.btn-social{
+    color: #FF0000 !important;
+}
+.bg-gray{
+    background: #F3F3F3;
+}
+section{
+    padding: 1.5rem 0;
+    position: relative;
+}
+.Blinds .card-title{
+    padding: 12px 20px;
+    background: #292929;
+    color: #ffffff;
+    margin: 0;
+}
+ul,ol{
+    padding-left: 20px !important;
+    margin: 0 !important;
+}
+ol li::marker{
+    font-weight: 600;
+}
+li{
+    margin-bottom: 5px;
+}
+.bg-red{
+    background: #FF0000;
+}
+.footer a{
+    display: block;
+    margin-bottom: 10px;
+}
+.Acceptbtn{
+    height: auto !important;
+    border-radius: 30px !important;
+    margin-left: 10px;
+    font-size: 11px !important;
+    line-height: 10px !important;
+}
+.Products .card{
+    border: 0;
+}
+.qe-btn{
+    border-radius: 30px !important;
+    position: absolute;
+    right: -50px;
+    top: 160px;
+    z-index: 1;
+    text-orientation: upright;
+    transform: rotate(90deg);
+}
+.float-btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    bottom: 80px;
+    z-index: 1;
+}
+.text-white{
+    color: #F3F3F3;
+}
+
+@media (min-width: 992px) {
+    .w-55vw {
+        width: 55vw !important;
+    }
+    .w-63vw {
+        width: 63vw !important;
+    }
+    section {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer h6{
+        margin: 30px 0 20px 0;
+    }
+    .float-btn{bottom: 250px;}
+}
